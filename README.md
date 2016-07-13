@@ -11,6 +11,7 @@ npm install node-openweather
 ```
 
 ## Usage
+** Work in progress - more endpoints will be covered soon **
 
 ```javascript
 var weather = require('node-openweather')({
