@@ -1,0 +1,27 @@
+{
+  "name": "node-openweather",
+  "version": "0.0.1",
+  "description": "OpenWeatherMap API wrapper for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overburn/node-openweather.git"
+  },
+  "keywords": [
+    "units",
+    "nodejs"
+  ],
+  "author": "Teodor Matis <teodormatis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/overburn/node-openweather/issues"
+  },
+  "homepage": "https://github.com/overburn/node-openweather#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "superagent": "^2.0.0"
+  }
+}
