@@ -15,7 +15,10 @@ npm install node-openweather
 
 ```javascript
 var weather = require('node-openweather')({
-  key: "your-openweathermap-api-key"
+  key: "your-openweathermap-api-key",
+  accuracy: "like",
+  unit: "metric",
+  language: "en"
 });
 
 weather.city('London').now().then(function(res) {
