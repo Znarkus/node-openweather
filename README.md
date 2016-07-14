@@ -27,3 +27,18 @@ weather.city('London').now().then(function(res) {
   //error handling
 });
 ```
+
+# Location selectors
+```javascript
+city(city_name, [country])
+coords(lat, lng)
+zip(zip_code, [country])
+id(city_id)
+```
+
+#Time selectors
+``javascript
+*now()*
+*forecast(5)* or *forecast(16)*
+*history()*
+```
