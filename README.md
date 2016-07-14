@@ -37,7 +37,7 @@ id(city_id)
 ```
 
 #Time selectors
-``javascript
+```javascript
 *now()*
 *forecast(5)* or *forecast(16)*
 *history()*
