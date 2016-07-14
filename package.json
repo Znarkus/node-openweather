@@ -1,6 +1,6 @@
 {
   "name": "node-openweather",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "OpenWeatherMap API wrapper for NodeJS",
   "main": "index.js",
   "scripts": {
