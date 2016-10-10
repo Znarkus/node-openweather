@@ -17,7 +17,7 @@ npm install node-openweather
 var weather = require('node-openweather')({
   key: "your-openweathermap-api-key",
   accuracy: "like",
-  unit: "metric",
+  units: "metric",
   language: "en"
 });
 
